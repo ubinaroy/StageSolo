@@ -6,6 +6,14 @@ With Stage Manager on several displays, clicking a thumbnail in one screen's str
 
 macOS brings an app forward on every screen where it has windows. If Chrome has one window on your laptop and another on your external monitor, clicking Chrome in the laptop's strip can also swap the external monitor over to Chrome. StageSolo makes the click switch only the screen you clicked on, for any app.
 
+**Without StageSolo**, clicking Chrome in the laptop's strip (left) also turns the external monitor (right) to Chrome:
+
+![Without StageSolo: both screens switch to Chrome](docs/demo-without.gif)
+
+**With StageSolo**, only the laptop switches:
+
+![With StageSolo: only the laptop switches](docs/demo-with.gif)
+
 StageSolo is a small menu bar app: one Swift file, no dependencies. It was vibe-coded with Claude Code.
 
 ## Requirements

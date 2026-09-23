@@ -6,6 +6,14 @@
 
 macOS 会把一个 app 在各块屏上的窗口一起调到前面。比如 Chrome 在笔记本屏和外接屏上各开了一个窗口，你在笔记本屏的小条里点 Chrome，外接屏可能也会跟着换成 Chrome。装上 StageSolo 后，点哪块屏就只切哪块屏，对所有 app 都有效。
 
+**没有 StageSolo 时**，在笔记本屏（左）的小条里点 Chrome，外接屏（右）也会跟着变成 Chrome：
+
+![没有 StageSolo：两块屏都切到 Chrome](docs/demo-without.gif)
+
+**有 StageSolo 时**，只有笔记本屏切换：
+
+![有 StageSolo：只有笔记本屏切换](docs/demo-with.gif)
+
 StageSolo 是一个菜单栏小工具：只有一个 Swift 文件，没有任何依赖，完全用 Claude Code vibe coding 写成。
 
 ## 要求
